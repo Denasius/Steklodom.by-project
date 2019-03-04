@@ -1,0 +1,265 @@
+/*!
+Theme Name: steklodom
+Theme URI: https://steklodom.by/
+Author: Denis Kostyuk
+Author URI: https://webernetic.by/
+Version: 1.0.0
+*/
+
+.top-line .custom-logo-link{
+    display: inline-block;
+    width: 94px;
+    max-width: 94px;
+    min-width: 94px;
+    margin-right: 27px;
+}
+.row.navigation.pagination{
+	width: 100%;
+	margin-right: -15px;
+    margin-left: -15px;
+    margin: 0;
+}
+
+.page-numbers{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+    padding: 0;
+    margin: 30px 0 70px 0;
+}
+
+
+
+.page-numbers li{
+	margin: 0 14px;
+}
+
+
+.page-numbers li a{
+	font-size: 18px;
+    color: #c8c8c8;
+    font-weight: 400;
+    display: inline-block;
+    height: 18px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.single-post .catalog-products-order .product-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+
+.single-post .catalog-products-order .product-wrapper .left-col{
+	min-width: 449px;
+    height: 452px;
+    box-shadow: -5px 5px 0 0 #ea001c;
+    margin-right: 40px;
+}
+
+.single-post .catalog-products-order .product-wrapper .left-col img{
+    object-fit: cover;
+}
+
+.single-post .catalog-products-order .product-wrapper .left-col img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col{
+	width: 100%;
+    text-align: center;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .order-heading{
+	font-size: 30px;
+    font-weight: 400;
+    color: #292929;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col small{
+	    display: block;
+    line-height: 1.4;
+    color: #292929;
+    font-size: 12px;
+    margin: 5px auto;
+    font-weight: 300;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .phones{
+	margin-bottom: 20px;
+}
+.single-post .catalog-products-order .product-wrapper .right-col .phones a{
+	display: inline-block;
+    color: #292929;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .order-info{
+	width: 100%;
+    padding: 24px 20px;
+    border: 1px solid #ececec;
+    box-shadow: 0 10px 30px rgba(198,198,199,.45);
+    text-align: left;
+    background: #fff;
+    margin-bottom: 27px;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .order-info .flex-parent{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .order-info .flex-parent b{
+	display: block;
+    font-size: 16px;
+    font-weight: 400;
+    width: 52%;
+    padding-right: 5px;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col .order-info .flex-parent u{
+	display: block;
+    text-decoration: none;
+    font-size: 16px;
+    width: 50%;
+}
+
+.single-post .catalog-products-order .product-wrapper .right-col.right-description{
+
+    width: 600px;
+}
+.single-post .catalog-products-order .product-wrapper .right-col.right-description .product-description-text p,
+.search-results p{
+    font-family: Roboto,sans-serif;
+    color: #292929;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.form_order{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+.form_order input{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.search-results .comments-link{
+    display: none;
+}
+
+.search-results [rel="category tag"]{
+    text-decoration: underline;
+}
+
+.search-results .entry-footer span:not(.cat-links){
+    display: none;
+}
+
+.select-menu-order-page select{
+    border: 1px solid #696969;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #292929;
+    line-height: 46px;
+    height: 50px;
+}
+
+.error-answer, .error-message, .error-message_footer{
+    color: red;
+}
+.success-answer, .success-message, .success-message_footer{
+    color: green;
+}
+.success-message, .error-message, .error-message_footer, .success-message_footer{
+    text-align: center;
+    display: none;
+}
+.gif_preloader,
+#gif_preloader_order_page,
+#gif_preloader_footer{
+    display: none;
+}
+
+
+.single-post ul.breadcrumbs{
+    flex-wrap: wrap;
+}
+
+.page-template-default .projects-slider{
+    min-height: 720px;
+    padding-top: 70px;
+}
+
+.single_breadcrumbs{
+    text-transform: capitalize;
+}
+
+
+@media screen and ( max-width: 991px ) {
+    .catalog-products-order .product-wrapper{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .single-post .catalog-products-order .product-wrapper .left-col{
+        margin-bottom: 20px;
+    }
+    .catalog-products-order .product-wrapper.product-aside-post{
+        width: 100%;
+    }
+    .single-post .catalog-products-order .product-wrapper.product-aside-post .right-col.right-description{
+        width: 100%;
+    }
+    .single-post .catalog-products-order .product-wrapper.product-aside-post .left-col{
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media screen and ( max-width: 750px ) {
+   .catalog-products-order .product-wrapper{
+        width: 100%;
+   } 
+}
+
+@media screen and ( max-width: 450px ) {
+    .single-post .catalog-products-order .product-wrapper .left-col{
+        min-width: 100%;
+    }
+}
